@@ -1,14 +1,13 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  currentProgram : {
+          flux : {
+            type : 'song',
+            title : 'Eminem - Lose Yourself',
+            cover : 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/rose-mixtape-album-cover-art-template-design-59c928b377e5f0e8e9aabc4982ca7e14_screen.jpg?ts=1588828036',
+          },
+          emission : {
+            background : 'https://images.unsplash.com/photo-1557683325-3ba8f0df79de?ixlib=rb-1.2.1&w=1000&q=80',
+            color : '#007aff'
+          }
+        }
 }
